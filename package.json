@@ -1,7 +1,7 @@
 {
-  "name": "chrome-extension-boilerplate-react",
+  "name": "AI Summary",
   "version": "5.0.4",
-  "description": "A chrome extension boilerplate built with React 18, Webpack 5, and Webpack Dev Server 4",
+  "description": "A chrome extension to read, extract and summarize website text content",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,8 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "openai": "^4.20.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -55,7 +56,7 @@
     "typescript": "^4.9.4",
     "webpack": "^5.75.0",
     "webpack-cli": "^4.10.0",
-    "webpack-dev-server": "^4.11.1",
+    "webpack-dev-server": "^5.2.2",
     "zip-webpack-plugin": "^4.0.1"
   }
 }
